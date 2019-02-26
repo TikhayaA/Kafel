@@ -170,3 +170,112 @@ main{
 	text-decoration: none;
 	color: #3E82FE;
 }
+.wrap-block{
+	max-width: 768px;
+	border-radius: 6px;
+}
+.block-tittle{
+	font-family: Roboto;
+	font-size: 26px;
+	text-align: center;
+	color: #080808;
+	border-bottom: 1px solid #EDEDED;
+	position: relative;
+	padding: 20px 0;
+}
+.tittle-img {
+	position: absolute;
+	bottom: 38px;
+    right: 6px;
+}
+.block-btn{
+	width: 70%;
+	margin: auto;
+	background: #FFBB00;
+	box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	font-family: Roboto;
+	font-size: 16px;
+	text-align: center;
+	color: #000000;
+	padding: 20px;
+}
+.block-checkbox{
+	width: 80%;
+    margin: auto;
+}
+.checkbox{
+	display: none;
+}
+.checkbox-custom{
+	position: relative;
+	width: 26px;
+	height: 26px;
+	border-radius: 2px;
+	border: 1px solid #BECAD6;
+	background: #fff;
+	margin: auto;
+}
+.checkbox-custom,
+.checkboxlabel {
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 20px;
+	color: #393F45;
+	font-family: SF Pro Text;
+}
+.checkboxlabel img{
+	padding: 0 10px;
+	vertical-align: middle;
+}
+.checkbox:checked + .checkbox-custom::before{
+	content: "✓";
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom:0px;
+	left: 0px;
+	background: #FFBB00;
+	text-align: center;
+}
+.block-checkbox{
+	display:flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.block-checkbox label{
+	margin-bottom: 20px;
+
+}
+.fon{
+	width: 15px;
+	height: 15px;
+	border-radius: 2px;
+	display: inline-block;
+    margin: 0 10px 0 10px;
+}
+.black{
+	background: #000000;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.grey{
+	background: #696969;
+	box-shadow: 0px 1px 2px rgba(105, 105, 105, 0.25);
+}
+.red{
+	background: #FF0000;
+	box-shadow: 0px 1px 2px rgba(255, 0, 0, 0.25);
+}
+.broun{
+	background: #8B4513;
+	box-shadow: 0px 1px 2px rgba(139, 69, 19, 0.25);
+}
+.burgundy{
+	background: #880000;
+	box-shadow: 0px 1px 2px rgba(136, 0, 0, 0.25);
+}
+.white{
+	background: #F7F7F7;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+}
